@@ -1,0 +1,92 @@
+cloud is compute networking storage and other services managed by someone else 
+
+cloud providers = compaanies who build data centers, fill servers netowrking and other equipment 
+
+cloud services have ai, iot, kubernetes and much more 
+
+5 chars of cloud characteristics 
+- on demand self service : no human interaction is needed for resource provisioning 
+- broad network access: resources in the cloud can be accessed from anywhere 
+- resource pooling: physical resources are shared between customers 
+- rapid elasticity : resources can be scaled up and down easily (online shopping problem)
+- measured service : payment is done only for resources actually used (server time, function time) 
+
+capex capital expense making up front investments for profit (servers from shopping ex)
+
+opex operational expense you pa for what you use 
+
+types of cloud services 
+- iaas : infrastructure as a service cloud provides underlying playform (compute storage and network like vm)
+- paas : platform as a service the cloud provides platform for running app (above plus webapps) 
+- saas : software as a service software running on cloud (provider takdes care of updates patches and more, ex office 365) 
+
+on prem you are responsible for everything 
+
+iaas you control vm 
+
+paas you are responsible for app and data 
+
+saas you are not responsible for anything you just use the app 
+
+faas, dbaas, daas, iotaas, aiaas probably more 
+
+types of clouds 
+- public : set up by public network 
+- private : managed by it teams organizations premises set up 
+- hybrid : set up in org prem but also connected in pub cloud (priv data on prem and pub data in pub cloud) 
+
+regions - what each data center is called 
+zones - fome of the regions have more than one physical data center, 
+each data center is called zone 
+when there are more than one zone in the region you have availability zones
+
+paired regions : some regions have designated pair region needed when a full region fails another can take its place 
+
+subscription : logical container containes various resources you provision in the cloud 
+
+account : identity with access resources in the subscription 
+
+SLA service level agreement - defines uptime % of cloud service (yearly downtime) 
+
+
+to calculate actual sla need to mutliply all service actual sla and then you get result which gives actual downtime 
+
+cost 
+- pricing model
+	- per resource 
+	- per consumption
+	- reservation 
+
+
+
+
+
+
+website that shows you all of azure products 
+
+you created 
+- resource group 
+
+when you select a region its important to know geo proximity to systems audience 
+
+storage account used to store explicit data storage quite cheap 
+
+
+
+
+architects and the cloud (for architects)
+- need to know non func req, tech stack, components architecture, communication patterns 
+- cloud based systems req an addition security and infrastructure knowledge 
+- hands on 
+
+
+azure.microsoft.com/en-us/pricing/calculator
+
+
+
+you need to keep into consideration the information that you come across and you need to ensure how you can work with it in azure 
+
+
+
+
+
